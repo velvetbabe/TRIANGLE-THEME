@@ -1,0 +1,566 @@
+  @charset "UTF-8";
+
+  @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+  @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+
+  @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+  $fuente:lato;
+  $dark-gray:#686868;
+  $golden:#d29948;
+
+
+  body {
+    background: #fff;
+    font-family:$fuente,sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  a {
+    color: #a5732a;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+
+    &:hover {
+      outline: none;
+      text-decoration: none;
+      color: #dab074;
+    }
+
+    &:focus {
+      outline: none;
+      outline-offset: 0;
+    }
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family:$fuente, sans-serif;
+    font-weight: 300;
+  }
+
+  h1 {
+    color:$dark-gray;
+  }
+
+  h2 {
+    color:$dark-gray;
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .overflow {
+    overflow: hidden;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+  #home-slider{
+    background:url('../images/home/slider-bg.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    width:100%;
+    height:445px;
+    .main-slider{
+    padding:4%;
+    }
+    img{
+    }
+    .slide-text{
+      h1{
+      width:300%;
+      }
+      p{
+      width:300%;
+      }
+    }
+  }
+
+  .slider-img{
+     display:flex-inline;
+    .slider-house{
+     top:112%;
+     left: 50%;
+     position: absolute;
+    }
+    .slider-sun{
+     left: 77%;
+     bottom: 37%;
+     position: absolute;
+    }
+    .slider-circle1{
+     right: 55%;
+     padding-top: 53%;
+     position: relative;
+    }
+    .slider-circle2{
+     left: 59%;
+     padding-top: 12%;
+     position: absolute;
+    }
+    .slider-cycle{
+      left: 27%;
+      top:175%;
+      position: absolute;
+    }
+    .slider-cloud1{
+      right: 17%;
+      padding-top: 30%;
+      position: relative;
+      
+    }
+    .slider-cloud2{
+      left: 51%;
+      position:absolute;
+      
+    }
+    .slider-cloud3{
+      padding-bottom:28%;
+      left: 23%;
+      position: relative
+    }
+  }
+
+  .single-service{
+   padding: 13%;
+  }
+  #services{
+   padding:2%;
+  }
+  .crop-img {
+   max-width: 100%;
+   overflow: hidden;
+   top: 3%;
+   left: 137.5%;
+   padding: 0;
+   position: absolute;
+  }
+
+  #action{
+    .vertical-center{
+    background-image: url(../images/home/tour-bg.png);
+    background-color: #F9F5F2;
+    padding: 0;
+    padding-bottom: 4%;
+      .take-tour{
+         .tour-button{
+          position: absolute;
+          left: 117%;
+          top: 55%;
+          }
+        }
+      }
+        
+  }
+  .btn-common {
+    font-size: 14px;
+    color: #797979;
+    border: 1px solid #dbb075;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 10px 25px;
+  }
+
+  #action .col-sm-5 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+  }
+
+  .btn-common {
+    &:hover, &:focus {
+      outline: none;
+      background: none;
+      box-shadow: none;
+      color: #d29948;
+    }
+  }
+
+  .align-right {
+    text-align: right;
+  }
+
+  .inline {
+    display: inline-block;
+  }
+
+  .service-1{
+    padding:38px 0;
+  }
+
+
+  .service-3{
+    padding:38px 0;
+  }
+
+  .padding-bottom {
+    padding-bottom: 65px;
+  }
+
+  .padding-top {
+    padding-top: 90px;
+  }
+
+  .padding-right {
+    padding-right: 80px;
+  }
+
+  .padding-left {
+    padding-left: 80px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 35px;
+  }
+
+  /*************************
+  *******Header******
+  **************************/
+
+  #header {
+    margin-bottom: 0;
+    padding: 30px 0 60px 0;
+
+    .navbar-inverse .container {
+      position: relative;
+    }
+  }
+
+  .social-icons ul li {
+    padding: 0 10px;
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    a{
+      font-size: 18px;
+      color: #d3d3d3;
+      padding: 0;
+      right:4px;
+
+      &:hover, &:focus {
+        color: #dbb075;
+        background: none;
+      }
+    }
+  }
+  #features{
+  padding:4%;
+   .single-features{
+    padding:6%;
+   }
+  }
+
+  #clients{
+   .zen{
+    margin:auto;
+   }
+   .zen-text{
+    padding-bottom:3%;
+   }
+   .divider{
+    padding-bottom:40%;
+   }
+  }
+
+
+  #header {
+    .social-icons{
+    margin-bottom:2%;
+     a{
+     margin-right:15px;
+     }
+    }
+    .navbar {
+      background: #fff;
+      border: 0;
+      margin-bottom:0;
+    }
+    .navbar-right{
+    margin-left:4%;
+     a{
+     margin-right:8px;
+     }
+    }
+    .navbar-toggle {
+      margin-top: 20px;
+      background-color:$golden;
+      color:black;
+      border:none;
+    }
+
+    .navbar-brand {
+      padding: 0;
+      margin-left: 0;
+
+      h1, h2 {
+        padding: 0;
+        margin: 0;
+      }
+    }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f4efe5;
+    font: bold 14px 'Open Sans', sans-serif;
+}
+header, nav{
+    display: block;
+}
+
+/* Definimos un ancho 100% y una altura fija para nuestro menú */
+header{
+    background: #22282e;
+    height:60px;
+    position: relative;
+    width: 100%;
+    z-index: 2
+}
+
+/* El logo sera flotado a la izquierda */
+#logo{
+    background: url(logo.png) no-repeat 0 0;
+    display: block;
+    float: left;
+    margin: 6px 10px 0;
+    width: 82px;
+    height: 46px;
+    text-indent: -9999px
+}
+
+/* Nuestro nav con id #menu lo flotaremos a la derecha*/
+#menu{float: right;}   
+
+    /* Quitamos estilos por defecto de el tag UL */
+    #menu ul{
+        list-style: none;
+        font-size: 14px;
+    }
+        
+        /* Centramos y ponemos los textos en mayuscula */
+        #menu li{
+           display: block;
+           float: left;
+           text-transform: uppercase;
+           text-align: center;
+        }
+            
+            /* Damos estilo a nuestros enlaces */
+            #menu li a{
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                height: 60px;
+                line-height: 60px;
+                padding: 0 26px;
+            }
+            #menu li a:hover{
+                background: #151a1e;
+                color: #ffc700;
+            }
+    
+    /* Estilos #nav-mobile y lo ocultamos */
+    #nav-mobile{
+        display: none;
+        background: url(nav.png) no-repeat center center;
+        float: right;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        right: 0;
+        top:0;
+        opacity: .6;
+
+    }   
+        /* Agregaremos esta clase a #nav-mobile, cuando el menu mobile haya sido desplegado */
+        #nav-mobile.nav-active{
+            opacity: 1;
+        }
+
+/* Content */
+#content{
+    width: 80%;
+    margin: 60px 10%;
+    text-align: center;
+    overflow: hidden;
+}
+    h2{
+        font-size: 50px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #624c3f;
+    }
+
+
+/*
+    MEDIA QUERY
+*/
+
+@media only screen and (max-width: 768px) {
+        
+    h2{font-size: 40px;}
+    
+    /* mostramos #nav-mobile */
+    #nav-mobile{ display: block; }
+    
+    /* Fijamos nuestro nav en 100% ancho y dejamos de flotarlo  */
+    #menu{
+        width: 100%;
+        float: none;
+        padding-top: 60px;
+    }
+        /* Convertimos nuestra lista de enlaces en un menú horizontal */
+        #menu ul{
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            box-shadow: 0 1px 2px rgba(0,0,0,.5);
+            max-height: 0;
+            overflow: hidden;
+        }
+            /* estilos para los LI del menu */
+            #menu li{
+                background: #33363b;
+                border-bottom: 1px solid #282b30;
+                float: none;
+            }
+
+            /* Quitamos el borde del ultimo item del menú */
+            #menu li:last-child{ border-bottom: 0;}
+                #menu li a{
+                    padding: 15px 0;
+                    height: auto;
+                    line-height: normal;
+                }
+                #menu li a:hover{background:#2a2d33}
+
+        /* Agregamos una animación al despligue del menú */
+        #menu ul.open-menu{
+            max-height: 400px;
+            -webkit-transition: max-height .4s;
+            -moz-transition: max-height .4s;
+            -ms-transition: max-height .4s;
+            -o-transition: max-height .4s;
+            transition: max-height .4s;
+        }
+}  
+
+    .navbar-nav.navbar-right > li {
+      a  {
+        color: #000;
+        font-size: 12px;
+        padding: 20px;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-right:4%;
+      }
+
+      &:last-child {
+        margin-right: 20px;
+      }
+    }
+
+    .navbar-inverse .navbar-nav li {
+      a:hover {
+        color:$golden;
+      }
+   
+      &.active > a {
+        background-color: inherit;
+        border: 0;
+        color:$golden;
+
+        &:focus {
+          background-color: inherit;
+          border: 0;
+          color:$golden;
+        }
+      }
+    }
+
+
+    .navbar-inverse .navbar-nav li.active > a {
+      background-color: inherit;
+      border: 0;
+      color:$golden;
+
+      &:focus {
+        background-color: inherit;
+        border: 0;
+        color:$golden;
+      }
+    }
+
+    .navbar-nav.navbar-right li > a:hover {
+      background-color: inherit;
+      border: 0;
+      color:$golden;
+    }
+  }
+
+  .navbar-inverse .navbar-nav > .open > a {
+    background-color: inherit;
+    border: 0;
+    color:$golden;
+  }
+
+.form-control{
+ border:1px solid $golden;
+}
+
+#main-contact-form{
+  .form-group{
+   .btn{
+   background-color:$golden;
+   color:white;
+   text-transform:uppercase;
+   width:100%;
+   box-shadow:2px 2px 5px brown;
+   }
+  }
+}
+
+#footer{
+  background-image:url(../images/home/footer.png);
+  background-repeat:no-repeat;
+  background-size:contain;
+  .media-body{
+    blockquote{
+    border:1px solid transparent;
+    .gold{
+     color:$golden;
+    }
+    h2{
+    margin-top:4%;
+    }
+   }
+  }
+}
+
+  address{
+   padding-top:15px;
+   margin-bottom: 86px;
+   h2{
+   margin-top:4%;
+   }
+  }
